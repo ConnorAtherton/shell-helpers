@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# Generic arg parser function
+# Example arg parser function
 #
 arg_parse() {
   if test $# -eq 0; then
