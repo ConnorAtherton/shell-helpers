@@ -2,6 +2,7 @@
 
 - what are they
 - history
+- trapping
 
 ## Best practices
 
