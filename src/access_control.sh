@@ -4,8 +4,7 @@
 ROOT_UID=0
 
 # Run as root, of course.
-if [ "$UID" -ne "$ROOT_UID" ]
-then
+if [ "$UID" -ne "$ROOT_UID" ]; then
   echo "Must be root to run this script."
-  exit $E_NOTROOT
+  exit 1
 fi

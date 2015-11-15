@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #
 # The basis of a simple test
 # suite for testing unix applications.

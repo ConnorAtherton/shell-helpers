@@ -19,3 +19,4 @@ high bash scripting tutorials available to everyone.
 I will update this list as I go along.
 
 [An in-depth exploration of the art of shell scripting](http://tldp.org/LDP/abs/html/)
+[A great intro to sed](http://www.grymoire.com/Unix/Sed.html)
