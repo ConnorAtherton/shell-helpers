@@ -23,3 +23,18 @@ clear_screen() {
 move_cursor_to() {
   printf "\e[${1};${2}H"
 }
+
+#
+# Find the screen size of the current TTY
+#
+screen_size() {
+  stty size
+}
+
+num_cols() {
+  screen_size | awk '{ print $2 }'
+}
+
+num_rows() {
+  screen_size | awk '{ print $1 }'
+}

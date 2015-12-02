@@ -93,9 +93,9 @@ if true; then :; fi
 
 ### Formatting
 
-Use snake_case for variables name and UPPERCASE_SNAKE_CASE for
+Use snake_case for variables name and UPPER_SNAKE_CASE for
 constants or global variables. In practice, this usually means
-thats `local` variables should be in lowercase and all other variables
+that `local` variables should be in lowercase and all other variables
 should be uppercase.
 
 ```shell

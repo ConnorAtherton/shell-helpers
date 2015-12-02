@@ -6,7 +6,7 @@
 #
 _includes() {
   if [ -n "$3" ]; then regex="$3"; else regex=P; fi
-  if echo "$1" | grep -q$regex "$2"; then echo 0; else echo 1; fi
+  if echo "$1" | grep -q $regex "$2"; then echo 0; else echo 1; fi
 }
 
 # assert $1 contains $2
