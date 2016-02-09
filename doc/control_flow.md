@@ -17,6 +17,11 @@ if [ condition ] || [ condition ] ; then
   # code..
   :
 fi
+
+if [ condition -o  condition ] ; then
+  # code..
+  :
+fi
 ```
 
 ```shell

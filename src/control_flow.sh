@@ -1,6 +1,7 @@
 #!/bin/bash
 
 n=0
+maxCalls=5
 while true; do
   # The revision_id is stored within the first 150 bytes if the call is successful
 
@@ -9,7 +10,7 @@ while true; do
   n=$(($n+1))
   sleep 15
 
-  if [ $n -ge 5 ]; then
+  if [ $n -ge $maxCalls ]; then
     echo "Too many failed failed calls"
     exit 1
   fi

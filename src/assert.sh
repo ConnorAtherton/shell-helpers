@@ -13,7 +13,14 @@ _includes() {
 assertIncludes() {
   assertTrue "'$1' should have contained '$2'" $(_includes "$@")
 }
+
 # assert $1 does not contain $2
 assertNotIncludes() {
   assertFalse "'$1' should not have contained '$2'" $(_includes "$@")
 }
+
+# Send a message to stderr
+echoerr() {
+  echo "$@" 1>&2;
+}
+
